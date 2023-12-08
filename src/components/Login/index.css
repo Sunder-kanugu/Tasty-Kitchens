@@ -1,0 +1,221 @@
+.login-route {
+  height: 100vh;
+  background-image: url(https://res.cloudinary.com/dndtpnlzv/image/upload/v1678347080/Tasty%20Kitchen/Rectangle_1457Login-image_sep1ef.png);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: 100% 0;
+  padding: 24px;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -ms-flex-align: center;
+  align-items: center;
+  overflow-y: hidden;
+}
+
+@media (min-width: 768px) {
+  .login-route {
+    background-image: none;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    padding: 0;
+  }
+}
+
+.website-landing-img-container-md {
+  display: none;
+}
+
+@media (min-width: 768px) {
+  .website-landing-img-container-md {
+    display: block;
+    width: 50vw;
+    height: 100vh;
+  }
+}
+
+.website-bg-img-md {
+  height: 100%;
+  width: 100%;
+  -o-object-fit: cover;
+  object-fit: cover;
+}
+
+@media (min-width: 768px) {
+  .form-card-container {
+    width: 50vw;
+    height: 100vh;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
+}
+
+@media (min-width: 1400px) {
+  .form-card-container {
+    padding-left: 100px;
+  }
+}
+
+.login-form {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -ms-flex-align: start;
+  align-items: flex-start;
+  width: 312px;
+  margin-top: 256px;
+}
+
+@media (min-width: 768px) {
+  .login-form {
+    width: 456px;
+    height: 561px;
+    background: #fefeff;
+    -webkit-box-shadow: 0 8px 40px rgba(7, 7, 7, 0.08);
+    box-shadow: 0 8px 40px rgba(7, 7, 7, 0.08);
+    border-radius: 8px;
+    -ms-flex-align: center;
+    align-items: center;
+    margin-top: 0;
+  }
+}
+
+.website-logo-login {
+  display: none;
+}
+
+@media (min-width: 768px) {
+  .website-logo-login {
+    display: block;
+    margin-top: 48px;
+    margin-bottom: 0;
+  }
+}
+
+.website-name-login {
+  display: none;
+}
+
+@media (min-width: 768px) {
+  .website-name-login {
+    display: block;
+    height: 32px;
+    font-family: 'DM Sans';
+    font-style: italic;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    color: #f7931e;
+    margin-top: 2.14px;
+  }
+}
+
+.login-form-heading {
+  font-family: 'DM Sans';
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 32px;
+  letter-spacing: 0;
+  color: #0f172a;
+  margin-bottom: 24px;
+}
+
+@media (min-width: 768px) {
+  .login-form-heading {
+    font-size: 32px;
+    margin-top: 8px;
+    line-height: 40px;
+    margin-bottom: 32px;
+  }
+}
+
+.input-boxes {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -ms-flex-align: start;
+  align-items: flex-start;
+}
+
+.login-input-label {
+  font-family: 'DM Sans';
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 16px;
+  letter-spacing: 0.01em;
+  text-align: left;
+  color: #475569;
+  margin-bottom: 8px;
+  margin-top: 24px;
+}
+
+.login-input {
+  height: 40px;
+  width: 312px;
+  background: #e2e8f0;
+  border-radius: 2px;
+  border: none;
+  font-family: 'DM Sans';
+  font-weight: 400;
+  font-size: 14px;
+  padding-left: 16px;
+  outline: none;
+}
+
+@media (min-width: 768px) {
+  .login-input {
+    width: 360px;
+  }
+}
+
+.error-msg {
+  color: #ef4444;
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  margin: 8px 0 0;
+  width: 312px;
+}
+
+@media (min-width: 768px) {
+  .error-msg {
+    width: 360px;
+    font-size: 14px;
+    line-height: 18px;
+  }
+}
+
+.login-btn {
+  border: none;
+  background-color: #f7931e;
+  border-radius: 8px;
+  width: 312px;
+  height: 40px;
+  color: #fff;
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 24px;
+  margin-top: 24px;
+  cursor: pointer;
+}
+
+@media (min-width: 768px) {
+  .login-btn {
+    width: 360px;
+  }
+}

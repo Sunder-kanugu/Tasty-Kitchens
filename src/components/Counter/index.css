@@ -1,0 +1,50 @@
+.food-add-btn {
+  width: 42.17px;
+  height: 23.59px;
+  border: 2px solid #ffa412;
+  border-radius: 5.7931px;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 16px;
+  color: #ffa412;
+  margin-bottom: 2px;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.items-counter {
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  width: 66px;
+  height: 24px;
+}
+
+.dec-inc-btn,
+.items-counter {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.dec-inc-btn {
+  border: 0.75px solid #475569;
+  border-radius: 2.25px;
+  width: 18px;
+  height: 18px;
+  font-size: 15px;
+  color: #475569;
+  background-color: transparent;
+  -ms-flex-pack: center;
+  justify-content: center;
+  text-align: center;
+  cursor: pointer;
+}
+
+.item-quantity {
+  color: #475569;
+  font-family: 'DM Sans';
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+}

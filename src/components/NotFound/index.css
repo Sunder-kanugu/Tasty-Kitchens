@@ -1,0 +1,57 @@
+.not-found-body,
+.not-found-route {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.not-found-body {
+  height: 100vh;
+  width: 100vw;
+  max-width: 576px;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+.not-found-img {
+  width: 150px;
+}
+
+.not-found-heading {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 32px;
+  color: #1e293b;
+}
+
+.not-found-description,
+.not-found-heading {
+  font-family: 'DM Sans';
+  font-style: normal;
+  text-align: center;
+}
+
+.not-found-description {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #475569;
+}
+
+.home-page-btn {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 16px;
+  color: #fff;
+  width: 98px;
+  height: 32px;
+  background: #f7931e;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+}

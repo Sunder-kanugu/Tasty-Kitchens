@@ -1,0 +1,128 @@
+.food-item-card {
+  width: 100%;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: start;
+  align-items: flex-start;
+  margin-bottom: 18px;
+}
+
+@media (min-width: 768px) {
+  .food-item-card {
+    width: 320px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .food-item-card {
+    width: 400px;
+  }
+}
+
+.food-item-img {
+  width: 160px;
+  height: 100px;
+  border-radius: 5.02px;
+  -webkit-box-shadow:
+    rgba(50, 50, 93, 0.25) 0 6px 12px -2px,
+    rgba(0, 0, 0, 0.3) 0 3px 7px -3px;
+  box-shadow:
+    0 6px 12px -2px rgba(50, 50, 93, 0.25),
+    0 3px 7px -3px rgba(0, 0, 0, 0.3);
+}
+
+@media (min-width: 1200px) {
+  .food-item-img {
+    width: 255px;
+    height: 150px;
+  }
+}
+
+.food-item-details {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
+  margin-left: 16px;
+  height: 100px;
+}
+
+@media (min-width: 1200px) {
+  .food-item-details {
+    margin-left: 30px;
+    height: 150px;
+  }
+}
+
+.food-item-name {
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 16px;
+  letter-spacing: 0.2px;
+  color: #334155;
+  margin: 0;
+}
+
+.food-item-cost-container {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: center;
+  align-items: center;
+  margin-bottom: 4px;
+  margin-top: 4px;
+}
+
+.food-item-cost {
+  font-family: 'DM Sans';
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  color: #334155;
+  margin: 0;
+}
+
+.food-item-ratings-container {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: center;
+  align-items: center;
+  margin-bottom: 4px;
+}
+
+.food-rating {
+  font-family: 'DM Sans';
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 18px;
+  color: #1e293b;
+  margin: 0 0 0 4px;
+}
+
+@media (min-width: 1200px) {
+  .food-item-name {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24px;
+  }
+
+  .food-item-cost-container {
+    margin-bottom: 8px;
+    margin-top: 8px;
+  }
+
+  .food-item-cost {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  .food-rating {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+  }
+}
